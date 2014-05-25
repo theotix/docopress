@@ -46,6 +46,10 @@ header nav li a:hover{
 }
 /* THE CONTENT */
 
+article{
+    margin-bottom: 1em;
+    border-bottom: 1px dashed #c5c5c5;
+}
 article h2 a{
     display: inline-block;
     margin-bottom: 0.5em;
