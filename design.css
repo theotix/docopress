@@ -65,6 +65,26 @@ article .date{
 article p, article img{
     margin: 1em 0;
 }
+
+/* Pagination */
+#pagination{
+    text-align: center;
+}
+#pagination li{
+    display: inline;
+}
+#pagination li a{
+    display: inline-block;
+    padding: 0.1em 0.5em;
+    color: #646464;
+    text-decoration: none;
+    border: 1px solid #c5c5c5;
+}
+#pagination li a:hover{
+    color: #fff;
+    background: #007fb4;
+    border-color: #007fb4;
+}
 /* FOOTER */
 footer{
     padding: 0.5em 0;
