@@ -61,6 +61,16 @@ article .date{
 article p, article img{
     margin: 1em 0;
 }
+/* FOOTER */
+footer{
+    padding: 0.5em 0;
+    color: #c5c5c5;
+    text-align: center;
+    font-size: 0.8em;
+}
+footer a{
+    color: #c5c5c5;
+}
 /* COMMONS */
 
 b{
