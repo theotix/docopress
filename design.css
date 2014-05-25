@@ -1,4 +1,4 @@
-body{
+body {
     max-width: 40em;
     margin: auto;
     color: #444;
@@ -7,17 +7,19 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 /* HEADER */
+
 header {
     margin-top: 2em;
     margin-bottom: 2em;
 }
 /* Blog title */
-header .title{
+
+header .title {
     display: inline-block;
     vertical-align: middle;
     line-height: 0.8em;
 }
-header .title h1 a{
+header .title h1 a {
     color: #000;
     font-size: 1.5em;
     font-weight: bold;
@@ -25,32 +27,32 @@ header .title h1 a{
 }
 /* The Nav */
 
-header nav{
+header nav {
     display: inline-block;
     vertical-align: top;
     float: right;
 }
-header nav li{
+header nav li {
     display: inline;
     margin-left: 0.5em;
 }
-header nav li a{
+header nav li a {
     padding-bottom: 0.2em;
     color: #007fb4;
     text-decoration: none;
     border-bottom: solid 2px transparent;
 }
-header nav li a:hover{
+header nav li a:hover {
     color: #646464;
     border-bottom: solid 2px #646464;
 }
 /* THE CONTENT */
 
-article{
+article {
     margin-bottom: 1em;
     border-bottom: 1px dashed #c5c5c5;
 }
-article h2 a{
+article h2 a {
     display: inline-block;
     margin-bottom: 0.5em;
     color: #007fb4;
@@ -58,80 +60,84 @@ article h2 a{
     font-weight: 300;
     text-decoration: none;
 }
-article .date{
+article .date {
     color: #c5c5c5;
     margin-bottom: 0.5em;
 }
-article p, article img{
+article p,
+article img {
     margin: 1em 0;
 }
-article p a{
+article p a {
     color: #007fb4;
 }
 /* Pagination */
-#pagination{
+
+#pagination {
     text-align: center;
 }
-#pagination li{
+#pagination li {
     display: inline;
 }
-#pagination li a{
+#pagination li a {
     display: inline-block;
     padding: 0.1em 0.5em;
     color: #646464;
     text-decoration: none;
     border: 1px solid #c5c5c5;
 }
-#pagination li a:hover{
+#pagination li a:hover {
     color: #fff;
     background: #007fb4;
     border-color: #007fb4;
 }
 /* Bio */
-#bio{
+
+#bio {
     padding: 1em 0;
 }
-#bio .avatar{
+#bio .avatar {
     float: left;
     margin: 0px 0.5em 0.5em 0px;
 }
-#bio .avatar img{
+#bio .avatar img {
     max-width: 100px;
     max-height: 100px;
     background: #ccc;
     border: 1px solid #ddd;
 }
-#bio p{
+#bio p {
     color: #b5b5b5;
     font-size: 0.9em;
     font-style: italic;
     line-height: 1.2em;
 }
-#bio p a{
+#bio p a {
     color: #b5b5b5;
 }
 /* FOOTER */
-footer{
+
+footer {
     padding: 0.5em 0;
     color: #c5c5c5;
     text-align: center;
     font-size: 0.8em;
 }
-footer a{
+footer a {
     color: #c5c5c5;
 }
 /* COMMONS */
 
-b{
+b {
     font-weight: bold;
 }
-i{
+i {
     font-style: italic;
 }
-img{
+img {
     max-width: 40em;
 }
-quote{
+quote {
     display: inline-block;
     margin: 0.5em 0;
     padding: 1em;
@@ -139,33 +145,32 @@ quote{
     background: #eaeaea;
     border-left: 0.2em solid #ccc;
 }
-article .content h3{
+article .content h3 {
     font-size: 1.5em;
 }
-article .content h4{
+article .content h4 {
     font-size: 1.4em;
 }
-article .content h5{
+article .content h5 {
     font-size: 1.3em;
 }
 /* FONT-FACE */
 
 @font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Roboto Light'), local('Roboto-Light'), url(https://themes.googleusercontent.com/static/fonts/roboto/v11/Hgo13k-tfSpn0qi1SFdUfT8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Light'), local('Roboto-Light'), url(https://themes.googleusercontent.com/static/fonts/roboto/v11/Hgo13k-tfSpn0qi1SFdUfT8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
 }
 @font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Roboto Regular'), local('Roboto-Regular'), url(https://themes.googleusercontent.com/static/fonts/roboto/v11/2UX7WLTfW3W8TclTUvlFyQ.woff) format('woff');
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto Regular'), local('Roboto-Regular'), url(https://themes.googleusercontent.com/static/fonts/roboto/v11/2UX7WLTfW3W8TclTUvlFyQ.woff) format('woff');
 }
 @font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Roboto Bold'), local('Roboto-Bold'), url(https://themes.googleusercontent.com/static/fonts/roboto/v11/d-6IYplOFocCacKzxwXSOD8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Roboto Bold'), local('Roboto-Bold'), url(https://themes.googleusercontent.com/static/fonts/roboto/v11/d-6IYplOFocCacKzxwXSOD8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
 }
-
