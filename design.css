@@ -65,7 +65,9 @@ article .date{
 article p, article img{
     margin: 1em 0;
 }
-
+article p a{
+    color: #007fb4;
+}
 /* Pagination */
 #pagination{
     text-align: center;
