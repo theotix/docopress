@@ -87,6 +87,29 @@ article p a{
     background: #007fb4;
     border-color: #007fb4;
 }
+/* Bio */
+#bio{
+    padding: 1em 0;
+}
+#bio .avatar{
+    float: left;
+    margin: 0px 0.5em 0.5em 0px;
+}
+#bio .avatar img{
+    max-width: 100px;
+    max-height: 100px;
+    background: #ccc;
+    border: 1px solid #ddd;
+}
+#bio p{
+    color: #b5b5b5;
+    font-size: 0.9em;
+    font-style: italic;
+    line-height: 1.2em;
+}
+#bio p a{
+    color: #b5b5b5;
+}
 /* FOOTER */
 footer{
     padding: 0.5em 0;
