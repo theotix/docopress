@@ -131,6 +131,14 @@ i{
 img{
     max-width: 40em;
 }
+quote{
+    display: inline-block;
+    margin: 0.5em 0;
+    padding: 1em;
+    font-style: italic;
+    background: #eaeaea;
+    border-left: 0.2em solid #ccc;
+}
 /* FONT-FACE */
 
 @font-face {
