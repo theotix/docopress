@@ -137,7 +137,7 @@ i {
     font-style: italic;
 }
 img {
-    max-width: 40em;
+    max-width: 100%;
 }
 quote {
     display: inline-block;
