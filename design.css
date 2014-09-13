@@ -1,6 +1,8 @@
 body {
+    width: 90%;
     max-width: 40em;
     margin: auto;
+    padding: 0 5%;
     color: #444;
     line-height: 1.6em;
     font-size: 1.3em;
@@ -135,7 +137,7 @@ i {
     font-style: italic;
 }
 img {
-    max-width: 40em;
+    max-width: 100%;
 }
 quote {
     display: inline-block;
